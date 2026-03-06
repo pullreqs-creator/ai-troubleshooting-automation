@@ -1,4 +1,13 @@
-# Project: Automated System & Database Troubleshooting Demo
+# AITinkerers
+
+[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?logo=python&logoColor=white)](https://python.org)
+[![React](https://img.shields.io/badge/React-18+-61DAFB?logo=react&logoColor=black)](https://reactjs.org)
+[![Flask](https://img.shields.io/badge/Flask-2.0+-000000?logo=flask&logoColor=white)](https://flask.palletsprojects.com)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+**Automated system & database troubleshooting** with AI runbooks, Selenium agent, React on-call dashboard, and Flask log analyzer.
+
+---
 
 ## Overview
 This project demonstrates an automated troubleshooting workflow for system and database issues using a Python Selenium agent, a robust runbook, a React-based frontend for on-call task management, and a Flask-based log analyzer for deeper diagnostics. The system executes both web and CLI actions, collects diagnostics, and provides a user-friendly interface for rapid incident response.

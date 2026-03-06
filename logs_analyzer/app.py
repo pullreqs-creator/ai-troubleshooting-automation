@@ -1,3 +1,10 @@
+"""
+Flask application for log analysis, AI-powered diagnostics, and ticketing.
+
+Provides endpoints for uploading logs, running playbooks, and generating
+diagnostic reports. Integrates with LogAnalysisAgent for AI analysis
+and TicketService for incident ticketing.
+"""
 import os
 import json
 import queue
@@ -6,8 +13,9 @@ import sys
 import threading
 import time
 from datetime import datetime
+from typing import Any, Dict, List
 
-import markdown # For rendering markdown in HTML
+import markdown  # For rendering markdown in HTML
 # import pandas as pd # Deferred until actual usage is confirmed for this file
 from flask import Flask, Response, jsonify, redirect, render_template, request, url_for
 from werkzeug.utils import secure_filename
