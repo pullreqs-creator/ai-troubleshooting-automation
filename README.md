@@ -1,4 +1,4 @@
-# AITinkerers
+# AI Troubleshooting Automation
 
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?logo=python&logoColor=white)](https://python.org)
 [![React](https://img.shields.io/badge/React-18+-61DAFB?logo=react&logoColor=black)](https://reactjs.org)
